@@ -25,15 +25,3 @@ As estruturas lineares organizam os elementos em uma sequência lógica unidimen
 
 ---
 
-## 🛠️ Como Compilar e Executar
-
-Como o projeto da Pilha é modular e reaproveita a estrutura da Lista, todos os arquivos `.c` correspondentes devem ser compilados juntos.
-
-Para testar o programa principal da Pilha, abra o terminal nesta pasta e execute:
-
-```bash
-# Compilação dos módulos e da main conjunta
-gcc main.c lista.c pilha.c -o programa_pilha
-
-# Execução do binário
-./programa_pilha
